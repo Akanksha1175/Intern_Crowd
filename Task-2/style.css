@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background:url(pic02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ section{
+    /* display:flex; */
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 100wh;
+    margin-left: 600px;
+ }
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: rgb(237, 186, 153);
+    border-radius: 20px;
+    display: flex;
+    /* justify-content:center;  */
+     align-items: center;
+    margin-top: 150px;
+}
+h2{
+    font-size: 1cm;
+    text-align: center;
+}
+.input-box{
+    width: 310;
+    margin: 20px;
+    border-bottom:2px solid #fff;
+}
+.input-box label{
+    top: 50%;
+    transform: translate(-50px);
+    pointer-events: none;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+.input-box input{
+    width: 100%;
+    height: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1cm;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 0.5cm;
+    line-height: 57px;
+}
+.remember-forgot{
+    margin: -15px 0 15px;
+    font-size: -9px;
+    justify-content: space-between;
+}
+.remember-forgot label input{
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+button1{
+    display:flex;
+    width: 130px;
+    height: 40px;
+    background: linear-gradient(rgb(147, 107, 80),rgb(237, 186, 153));
+    border: 1cm;
+    border-color: ;
+    align-items: center;
+    padding-left: 40px;
+    cursor: pointer;
+    font-size: 0.5cm;
+    border-radius: 10px;
+}
+.register-link{
+    font-size: .4cm;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register-link p a{
+    text-decoration: none;
+    font-weight: 600px;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    
+}
+
+.Submit{
+    margin-left: 125px;
+    
+}
+
+button2{
+    display: flex;
+    width: 60px;
+    height: 20px;
+    background: linear-gradient(rgb(147, 107, 80),rgb(237, 186, 153));
+    border: none;
+    outline: none;
+    padding-left: 9px;
+    cursor: pointer;
+    font-size: 0.3cm;
+    border-radius: 30px;
+    margin-left: 155px;
+    padding-top: 3px;
+}
+
+.l{
+margin-left: -10px;
+margin-bottom: 10px;
+}
